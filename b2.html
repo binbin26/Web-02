@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MPOB Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <style>
+    .banner-img {
+      width: 100%;
+      height: auto;
+    }
+    .circle {
+      width: 15px;
+      height: 15px;
+      background-color: #d4c51e;
+      border-radius: 50%;
+      margin: 5px;
+      display: inline-block;
+    }
+    .content-button {
+      background-color: #006633;
+      color: #fff;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+    }
+    .bottom-img {
+      max-height: 80px;
+      object-fit: contain;
+    }
+    .footer {
+      background: #f5f5f5;
+      padding: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container-fluid">
+
+    <div class="d-flex justify-content-between align-items-center py-2">
+      <img src="image/MPOB.png" alt="Logo" style="height:60px;">
+      <div class="text-center">
+        <p class="mb-0 text-secondary">Official Portal Of</p>
+        <p class="mb-0 fs-5 text-success">Malaysian Palm Oil Board</p>
+      </div>
+      <img src="image/Logo1.png" alt="Logo" style="height:60px;">
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#006633;">
+      <div class="container-fluid">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center" style="display: flex; flex-direction: row; justify-content: space-between;">
+          <li class="nav-item px-3"><i class="fa-solid fa-house text-white"></i></li>
+          <li class="nav-item px-3 text-white"><i class="fa-solid fa-circle-info"></i><br>Corporate Info</li>
+          <li class="nav-item px-3 text-white"><i class="fa-solid fa-file"></i><br>News</li>
+          <li class="nav-item px-3 text-white"><i class="fa-solid fa-money-bill-1-wave"></i><br>Prices</li>
+          <li class="nav-item px-3 text-white"><i class="fa-solid fa-camera"></i><br>MpobTV</li>
+          <li class="nav-item px-3 text-white"><i class="fa-solid fa-network-wired"></i><br>Intranet</li>
+        </ul>
+      </div>
+    </nav>
+
+    <form class="d-flex" role="search" style="margin-top: 10px">
+          <input class="form-control me-2" type="search" placeholder="Search"  style="border-radius: 50px;">
+          <button class="btn btn-light" type="submit"  style="border-radius: 50px;">GO</button>
+    </form>
+
+
+    <div class="text-center my-3">
+      <img src="image/banner.png" class="banner-img" alt="Banner">
+      <div class="mt-2" style="background-color: #006633;">
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+        <span class="circle"></span>
+      </div>
+    </div>
+
+
+    <div class="row align-items-center my-4" style="background-color: gray;">
+      <div class="col-md-3 text-center">
+        <img src="image/Potrait.png" class="img-fluid" alt="Portrait">
+      </div>
+      <div class="col-md-9">
+        <h4>Welcome to the MPOB</h4>
+        <p>The oil palm industry forms the economic backbone of Malaysia and continues to face new challenges in the face of globalization.</p>
+        <button class="content-button">Read More</button>
+      </div>
+    </div>
+
+
+    <div class="row text-center my-4">
+      <div class="col"><img src="image/Logo2.png" class="bottom-img" alt="Logo"></div>
+      <div class="col"><img src="image/Logo2.png" class="bottom-img" alt="Logo"></div>
+      <div class="col"><img src="image/MSC.png" class="bottom-img" alt="Logo"></div>
+      <div class="col"><img src="image/2Color.png" class="bottom-img" alt="Logo"></div>
+    </div>
+
+
+    <div class="footer text-center" style="background-color: orange; display: flex; flex-direction: row; justify-content: space-between;">
+      <p class="mb-0">Desktop Version</p>
+      <p class="mb-0">&copy; 2023 Malaysian Palm Oil Board</p>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
